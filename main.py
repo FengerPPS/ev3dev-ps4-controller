@@ -35,7 +35,7 @@ drivebase = DriveBase(left_motor, right_motor, 55.5, 121.5)
 # Drivebase settings
 # Arguments: straight speed: mm/s, straight acceleration: mm/s^2
 # turn rate: deg/s, turn acceleration: deg/s^2
-
+# Maximum speed is 1050 for a large (drive) motor and 1560 for a medium (arm/intake) motor
 drivebase.settings(500, 1000, 100, 100)
 
 ########
